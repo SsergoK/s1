@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.container{
+    font-size: 20px;;
+    font-weight: normal;
+    font-family: 'Roboto';
+    padding: 15px;
+    width: 1256px;
+    height: 780px;
+    justify-content: center;
+    background-color: #10061E;
+    color: #FFFEFE;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+}
+
+.menu{
+    display: flex;
+    width: 60%;
+    
+    justify-content: space-around; 
+}
+
+.logo{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    width: 15%;
+}
+.menu-item{
+    width: 15%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 550px;  
+    
+}
+.form-text{
+    width: 50%;
+    align-items: stretch ;
+    justify-content: center;
+    
+}
+.form-img{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.form-text1{
+height: 40%;
+width: 78%;
+padding: 30px;
+justify-content: center;
+display: block ;
+align-items: center;
+font-size: 50px;
+}
+
+.form-text2{
+    height: 10%; 
+    width: 65%;
+    padding-left: 30px;
+    display: flex;
+    justify-content: center; 
+}
+.form-text3{
+    height: 10%; 
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.form-text3 button{
+    width: 136px;
+    height: 50px;
+}
+.form-text4{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+    padding-top: 60px;
+    
+}
